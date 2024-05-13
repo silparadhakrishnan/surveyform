@@ -1,0 +1,54 @@
+ /* h1{
+    color:blue !important; */
+/* }   */
+/* div p{
+    background-color:red;
+} */
+/* 
+div>p{
+    background-color:red;
+} */
+/* div+p{
+    background-color:red;
+} */
+
+/* div~p{
+    background-color:red;
+} */
+/* a:link{
+    color:blue;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color:black;
+}
+a:active{
+    color:darkred;
+} */
+/* img{
+    opacity:0.3
+ }
+ img:hover{
+    opacity:1
+ }
+ p{
+    display: none;
+ }
+ div:hover p{
+    display: block;
+ } */
+p::first-line{
+    color:blue;
+
+}
+p::first-letter{
+    color:red;
+}
+p::before{
+    content:'😍';
+}
+p::after{
+    content:'😎'
+}
